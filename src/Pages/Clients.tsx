@@ -14,7 +14,7 @@ function Clients() {
         </h2>
       </div>
 
-      <div className="flex flex-col gap-3 md:flex-row lg:flex-row">
+      <div className="flex flex-col gap-3 md:flex-col lg:flex-row">
         <SimpleCard
           icon={<LuBuilding color="rgb(0,0,255)" />}
           text={t("clients.card1")}
